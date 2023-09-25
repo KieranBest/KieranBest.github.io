@@ -1,0 +1,97 @@
+header{
+    font-family:"Mooli", cursive;
+    font-weight: bold;
+    font-size: 25px;
+}
+body{
+    font-family:"Mooli", cursive;
+}
+
+#navbar{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    background: linear-gradient(to bottom, #000000 0%, #0000ff 100%);
+    border-bottom: 10%;
+    z-index: 1;
+}
+#navbar a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding:10px;
+}
+#navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#navbar li{
+    float: left;
+    padding: 14px 26px;
+
+}
+#navbar li a:hover {
+    color:#ff0101;
+    transition: background 0.4s ease-in-out;
+    opacity: 0.6;
+}
+  
+body{
+    padding-bottom: 3rem;
+    background-color: black;
+}
+
+.video_demon{
+    z-index: -1;
+    width: 65%;
+    height: auto;
+    top: 0;
+    margin:10px;
+}
+
+section{
+    padding: 10px;
+    text-align: center;
+}
+.Games{
+    background-color: #333;
+    padding: 10px;
+}
+.Me{
+    background-color: #0402a8;
+    padding: 10px;
+}
+.Contact{
+    background-color: #333;
+    padding: 10px;
+}
+
+.title{
+    color: white;
+    background-color: black;
+    opacity: 0.4;
+}
+.content{
+    color: white;
+    padding-top: 0;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+}
+.row {
+    display: flex;
+  }
+.column {
+    flex: 50%;
+}
+.column img{
+    width: 50%;
+    height: auto;
+}
