@@ -39,10 +39,10 @@ body{
 }
 #navbar li a:hover {
     color:black;
-    transition: background 0.4s ease-in-out;
+    transition: background 0.8s ease-in-out;
     opacity: 0.6;
 }
-  
+
 body{
     padding-bottom: 3rem;
     background-color: #27374D;
@@ -60,10 +60,10 @@ body{
     transition: 0.3s;
     border-radius: 25px;
     width: auto;
-    height:90%;
+    height:auto;
     background-color: #526D82;
     padding: 5%;
-    margin: -8% 5% 5% 5%;
+    margin: 0% 5% 5% 5%;
 }
 .card img{
     width: 50%;
@@ -83,6 +83,9 @@ body{
     list-style-type: none;
     color: #DDE6ED;
     margin-top: -5%;
+}
+.row{
+    margin-bottom: 15px;
 }
 
 section{
